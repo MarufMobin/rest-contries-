@@ -1,0 +1,19 @@
+.header-text{
+    text-align: center;
+    margin:  50px 0;
+}
+.country img{
+    width: 350px;
+}
+.countries{
+    display: grid;
+    grid-template-columns: repeat( 4, 1fr);
+    grid-gap: 50px;
+}
+.country{
+    border: 3px solid rgb(1, 19, 14);
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: rgba(55, 155, 133, 0.527);
+}
